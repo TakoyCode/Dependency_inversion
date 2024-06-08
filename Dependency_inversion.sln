@@ -5,7 +5,9 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency_inversion", "Dependency_inversion\Dependency_inversion.csproj", "{88D12C9D-9140-48B6-87F0-5A648BBF94D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroduksjonTilInterfaceOgDependencyInversionPrinciple", "Introduksjon_til_interface_og_Dependency_Inversion_Principle\IntroduksjonTilInterfaceOgDependencyInversionPrinciple.csproj", "{E457A779-28EF-4587-B96F-FFC677981961}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntroDependencyInversion", "Introduksjon_til_interface_og_Dependency_Inversion_Principle\IntroDependencyInversion.csproj", "{E457A779-28EF-4587-B96F-FFC677981961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroDependencyInversion.Server", "IntroDependencyInversion.ChatServer\IntroDependencyInversion.Server.csproj", "{78CA3061-4A90-450A-B83C-1E0B6D8D0C8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E457A779-28EF-4587-B96F-FFC677981961}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E457A779-28EF-4587-B96F-FFC677981961}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E457A779-28EF-4587-B96F-FFC677981961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78CA3061-4A90-450A-B83C-1E0B6D8D0C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78CA3061-4A90-450A-B83C-1E0B6D8D0C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78CA3061-4A90-450A-B83C-1E0B6D8D0C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78CA3061-4A90-450A-B83C-1E0B6D8D0C8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

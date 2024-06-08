@@ -1,6 +1,8 @@
-﻿namespace IntroduksjonTilInterfaceOgDependencyInversionPrinciple
+﻿using IntroDependencyInversion.Server;
+
+namespace IntroDependencyInversion
 {
-    internal class ChatClient
+    internal class ChatClient : IChatClient
     {
         private readonly string _name;
         private readonly ChatServer _server;

@@ -1,5 +1,8 @@
-﻿namespace IntroduksjonTilInterfaceOgDependencyInversionPrinciple
+﻿using IntroDependencyInversion.Server;
+
+namespace IntroDependencyInversion
 {
+    //  Notater til video: Introduksjon til interface og Dependency Inversion Principle
     internal class Program
     {
         static void Main(string[] args)
